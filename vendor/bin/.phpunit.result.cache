@@ -1,0 +1,1 @@
+{"version":1,"defects":{"FinanseDataTest::testAdd":8,"FinanseDataTest::test1":7,"MaterialTest::test1":7},"times":{"FinanseDataTest::testAdd":2.437,"FinanseDataTest::test1":0.019,"ClientTest::test1":0.022,"MasterTest::test1":0.016,"MaterialTest::test1":0.052,"ServiceTest::test1":0.017}}

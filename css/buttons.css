@@ -1,0 +1,81 @@
+button{
+    background: #ff80ab; /* Змінено на трохи яскравіший рожевий */
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    min-height: 25px;
+    height: fit-content;
+    margin: 5px;
+    padding: 4px;
+    word-wrap: break-word;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Додано перехід для кольору фону, кольору тексту та тіні */
+    
+    font-size: 14px; /* Поправка розміру тексту */
+}
+.card button:hover{
+    box-shadow: 0px 0px 4px 0px #9c9c9c; /* Додано тінь при наведенні */
+}
+button:hover{
+    background: #ffadba;
+    color: #ffffff;
+    box-shadow: 0px 0px 4px 0px #ffadba; /* Додано тінь при наведенні */
+}
+button:active{
+    background: #ffd4db;
+    box-shadow: 0px 0px 4px 0px #ffd4db; /* Додано тінь при натисканні */
+}
+section>.anticard>button{
+    box-shadow: 0px 0px 4px 0px pink; /* Змінено на трохи товстішу тінь та яскравіший колір */
+}
+section>.anticard>button:hover{
+    box-shadow: 0px 0px 4px 0px #ffd3da;
+    color: #ffffff;
+}
+section>.anticard>button:active{
+    box-shadow: 0px 0px 4px 0px #ffd4db;
+}
+#documents button.tag{
+    background: #32cd32; /* Змінено на трохи яскравіший зелений */
+    padding: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white; 
+    border-radius: 2px;
+}
+button ion-icon{
+    color:white;
+    height: 18px;
+}
+
+button.icon{border-radius: 2px;padding: 2px 5px 0 5px;}
+button.add { background: #99d1ff; } /* Помаранчевий колір */
+button.show { background: #ffcc99; } /* Помаранчевий колір */
+button.delete { background: #ff8080; } /* Червоного коліру */
+button.edit { background: #80aaff; } /* Синього коліру */
+button.copy { background: #a8ff80; } /* Зеленого коліру */
+button.download { background: #80ffb3; } /* Зелено-блакитного коліру */
+button.print { background: #d9a3ff; } /* Фіолетового коліру */
+
+button.add:hover { box-shadow: 0px 0px 4px 0px #99c2ff; } /* Помаранчевий колір */
+button.show:hover { box-shadow: 0px 0px 4px 0px #ffcc99; } /* Помаранчевий колір */
+button.delete:hover{ box-shadow: 0px 0px 4px 0px #ff8080; } /* Червоного коліру */
+button.edit:hover { box-shadow: 0px 0px 4px 0px #80aaff; } /* Синього коліру */
+button.copy:hover { box-shadow: 0px 0px 4px 0px #a8ff80; } /* Зеленого коліру */
+button.download:hover { box-shadow: 0px 0px 4px 0px #80ffb3; } /* Зелено-блакитного коліру */
+button.print:hover { box-shadow: 0px 0px 4px 0px #d9a3ff; } /* Фіолетового коліру */
+
+button.add:hover ion-icon { color: #00a2ff; } /* Помаранчевий колір для іконки при наведенні */
+button.show:hover ion-icon { color: #ff9900; } /* Помаранчевий колір для іконки при наведенні */
+
+button.delete:hover ion-icon { color: #ff3333; } /* Червоний колір для іконки при наведенні */
+button.edit:hover ion-icon { color: #3366ff; } /* Синій колір для іконки при наведенні */
+button.copy:hover ion-icon { color: #66cc00; } /* Зелений колір для іконки при наведенні */
+button.download:hover ion-icon { color: #00cc66; } /* Зелено-блакитний колір для іконки при наведенні */
+button.print:hover ion-icon { color: #aa66ff; } /* Фіолетовий колір для іконки при наведенні */
+
+button.icon:hover{opacity: .8;}
+button.delete:active,
+button.download:active,
+button.print:active{
+    opacity:0.8;
+}

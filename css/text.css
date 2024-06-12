@@ -1,0 +1,34 @@
+p small{
+    color: rgb(102, 102, 102);
+    margin-bottom: 10px;
+}
+/* Стилі для інформації про послугу */
+.service-info {
+    margin-bottom: 20px;
+}
+
+.service-info p {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.service-info strong {
+    font-weight: bold;
+}
+p ion-icon{
+    height: 15px;
+    margin-bottom: -3px;
+    margin-left: 3px;
+}
+.copy-icon{
+    color: rgb(182, 182, 182);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Додано перехід для кольору фону, кольору тексту та тіні */
+    
+}
+.copy-icon:hover{
+    color: #494949;
+}
+.copy-icon:active {
+    color: lightgrey; /* Застосовується колір при натисканні */
+}

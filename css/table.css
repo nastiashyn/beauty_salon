@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Границя для всієї таблиці */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd; /* Горизонтальна границя для всіх комірок */
+}
+
+th {
+    background-color: #f2f2f2; /* Світло-сірий колір для заголовків */
+    border-right: 1px solid #ddd; /* Горизонтальна границя для заголовків */
+}
+
+tbody tr:last-child td {
+    border-bottom: none; /* Відсутність нижньої границі для останнього рядка */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Парний рядок зі світло-сірим фоном */
+}
+
+tbody tr:hover {
+    background-color: #ddd; /* Колір фону при наведенні на рядок */
+}
+
+tbody td:first-child, thead th:first-child {
+    border-left: none; /* Відсутність лівої межі для першого стовпця */
+}
+
+tbody td:last-child, thead th:last-child {
+    border-right: none; /* Відсутність правої межі для останнього стовпця */
+}

@@ -1,0 +1,34 @@
+:root {
+    --fc-small-font-size: .85em;
+    --fc-page-bg-color: #fff; /* Колір фону сторінки */
+    --fc-neutral-bg-color: rgba(255, 192, 203, 0.3); /* Нейтральний колір фону (рожевий відтінок) */
+    --fc-neutral-text-color: #808080; /* Колір тексту для нейтральних областей */
+    --fc-border-color: #ddd; /* Колір межі */
+
+    --fc-button-text-color: #fff; /* Колір тексту кнопок */
+    --fc-button-bg-color: #FF69B4; /* Рожевий колір фону кнопок */
+    --fc-button-border-color: #FF69B4; /* Рожевий колір межі кнопок */
+    --fc-button-hover-bg-color: #FF1493; /* Темно-рожевий колір фону кнопок при наведенні */
+    --fc-button-hover-border-color: #FF1493; /* Темно-рожевий колір межі кнопок при наведенні */
+    --fc-button-active-bg-color: #FF1493; /* Темно-рожевий колір фону кнопок при активному стані */
+    --fc-button-active-border-color: #FF1493; /* Темно-рожевий колір межі кнопок при активному стані */
+
+    --fc-event-bg-color: #FFC0CB; /* Рожевий колір фону подій */
+    --fc-event-border-color: #FFC0CB; /* Рожевий колір межі подій */
+    --fc-event-text-color: #fff; /* Колір тексту для подій */
+    --fc-event-selected-overlay-color: rgba(255, 192, 203, 0.25); /* Рожевий колір для підкладки обраної події */
+
+    --fc-more-link-bg-color: #FFC0CB; /* Рожевий колір фону кнопки "Детальніше" */
+    --fc-more-link-text-color: inherit; /* Колір тексту кнопки "Детальніше" */
+
+    --fc-event-resizer-thickness: 8px; /* Товщина межі подій при зміні розміру */
+    --fc-event-resizer-dot-total-width: 8px; /* Загальна ширина крапок для зміни розміру подій */
+    --fc-event-resizer-dot-border-width: 1px; /* Товщина межі крапок для зміни розміру подій */
+
+    --fc-non-business-color: rgba(255, 192, 203, 0.3); /* Рожевий колір для небізнесових днів */
+    --fc-bg-event-color: #FF69B4; /* Рожевий колір для фону подій в календарі */
+    --fc-bg-event-opacity: 0.3; /* Прозорість фону подій в календарі */
+    --fc-highlight-color: rgba(255, 192, 203, 0.3); /* Рожевий колір виділення */
+    --fc-today-bg-color: rgba(255, 105, 180, 0.15); /* Рожевий колір фону сьогоднішньої дати */
+    --fc-now-indicator-color: red; /* Колір позначки поточного часу */
+}

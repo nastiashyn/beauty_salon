@@ -1,0 +1,18 @@
+.row{
+    display: inline-flex;
+}
+.column{
+    display:flex;
+    flex-direction: column;
+}
+.j-c-b{
+    justify-content: space-between;
+}
+.j-i-end{
+    justify-content: flex-end;
+
+}
+.w-full{
+width: 100%;
+}
+

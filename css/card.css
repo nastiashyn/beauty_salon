@@ -1,0 +1,99 @@
+.card{
+  /*border:1px gray dotted;*/
+border-radius: 10px;
+background: white;
+ margin:10px;
+ padding:10px;
+ -webkit-box-shadow: 0px 0px 4px 0px rgba(211, 155, 170, 0.637); /* Світло-рожева тінь */
+ -moz-box-shadow: 0px 0px 4px 0px rgba(235, 183, 196, 0.62); /* Світло-рожева тінь */
+ box-shadow: 0px 0px 4px 0px rgba(235, 188, 199, 0.62); /* Світло-рожева тінь */
+ 
+
+ overflow: hidden;
+}
+.card.overflow-show{
+
+ overflow:visible;
+}
+
+.anticard{
+margin:5px;
+padding:5px;
+}
+.anticard-sm{
+margin:5px;
+padding:5px;
+}
+.card-sm{
+background: white;
+margin:5px;
+padding:2px;
+-webkit-box-shadow: 0px 0px 4px 0px rgba(211, 155, 170, 0.637); /* Світло-рожева тінь */
+-moz-box-shadow: 0px 0px 4px 0px rgba(235, 183, 196, 0.62); /* Світло-рожева тінь */
+box-shadow: 0px 0px 4px 0px rgba(235, 188, 199, 0.62); /* Світло-рожева тінь */
+}
+.card-info{
+position: relative;
+}
+#financial_accounting .card-info{
+color: white;
+}
+#financial_accounting .card-info#card1{
+background-color: #bd65d3; /* Змінено на трохи яскравіший рожевий */
+}
+#financial_accounting .card-info#card2{
+background-color: #e98173; /* Змінено на трохи яскравіший оранжевий */
+}
+#financial_accounting .card-info#card3{
+background-color: #6ace74; /* Змінено на трохи яскравіший зелений */
+}
+#financial_accounting .card-info h5{
+position: absolute;
+margin: 0;
+font-weight: 300;
+top:10px;
+left:10px;
+font-size: 20px;
+}
+#financial_accounting .card-info h4{
+font-weight: 600;
+position: absolute;
+margin: 0;
+bottom:35px;
+right:35px;
+font-size: 35px;
+}
+#financial_accounting .card-info ul{
+font-weight: 400;
+position: absolute;
+margin: 0;
+bottom:10px;
+list-style: none;
+left:-30px;
+}
+
+#financial_accounting .card-info ul li{
+margin-bottom: 7px;
+font-size: smaller;
+}
+#financial_accounting .card-top h5{
+font-size: 18px;
+margin: 0;
+padding: 0 0 0 15px;
+}
+#financial_accounting .card-top table{
+margin: 0;
+padding: 0 0 0 35px;
+font-size: 12px;
+width: 100%;
+}
+
+#financial_accounting .card-top tr{
+margin: 0;
+padding: 0;
+}
+#financial_accounting .card-top td{
+margin: 0;
+padding: 0;
+border:0;
+}

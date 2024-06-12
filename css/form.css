@@ -1,0 +1,45 @@
+input, select, textarea{
+    border: 1px solid gray;
+    height: 25px;
+    border-radius: 3px;
+    margin: 3px;
+    color: rgb(53, 53, 53);
+}
+form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin:5px 15px 5px 15px
+}
+.form-control label{
+    margin:0 0 5px 0;
+}
+form button{
+    width: 150px;
+}
+form button.submit{
+    margin-left: 3%;
+    background: #81f486; /* Змінено на трохи яскравіший зелений */
+}
+form button.cancel{
+    margin-left: 70%;
+    background: #ff948b; /* Змінено на трохи яскравіший рожевий */
+}
+form button.submit:hover{
+    color: rgb(255, 255, 255);
+    background: #81f486; /* Змінено на трохи яскравіший зелений */
+}
+form button.cancel:hover{
+    color: rgb(255, 255, 255);
+    background: #ff948b; /* Змінено на трохи яскравіший рожевий */
+}
+form select.multiple{
+    height: 100px;
+}
+textarea{
+    max-width: 100%;
+}

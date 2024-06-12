@@ -1,0 +1,68 @@
+body{
+    background-color: #fce4ec; /* світло-рожевий */
+}
+.auth-form {
+    background-color: #fce4ec; /* світло-рожевий */
+    padding: 20px;
+    /*border-radius: 10px;*/
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+
+.auth-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form h1 {
+    color: #d81b60; /* рожевий */
+}
+
+.auth-form label {
+    margin-top: 10px;
+    color: #d81b60; /* рожевий */
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="email"],
+.auth-form input[type="password"],
+.auth-form select {
+    padding: 8px;
+    margin-top: 5px;
+    width: 500px;
+    border: 1px solid #d81b60; /* рожевий */
+    border-radius: 5px;
+}
+.auth-form select {
+    height: 45px;
+    width: 99%;
+    
+}
+.auth-form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 500px;
+    background-color: #d81b60; /* рожевий */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: #f48fb1; /* світло-рожевий */
+}
+
+.auth-form p {
+    margin-top: 10px;
+    color: #d81b60; /* рожевий */
+}
+
+.auth-form .msg {
+    color: #d81b60; /* рожевий */
+    margin-top: 10px;
+}
